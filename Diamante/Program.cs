@@ -1,14 +1,12 @@
 ﻿using System;
-using Diamante.Tabuleiro;
+using Diamante.tabuleiro;
 namespace Diamante
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Posição p;
-            p = new Posição(1, 2);
-            Console.WriteLine("Posicao = " + p);
+            Tabuleiro tab = new Tabuleiro(8, 8);
             Console.ReadLine();
         }
     }
