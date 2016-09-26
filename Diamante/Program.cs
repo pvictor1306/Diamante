@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Globalization;
+using Diamante.Tabuleiro;
 namespace Diamante
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um valor inteiro: ");
-            int x = int.Parse(Console.ReadLine());
-            int y = 3 * x;
-            Console.WriteLine("TRIPLO = " + y);
+            Posição p;
+            p = new Posição(1, 2);
+            Console.WriteLine("Posicao = " + p);
             Console.ReadLine();
         }
     }
