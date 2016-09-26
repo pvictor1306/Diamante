@@ -8,7 +8,7 @@ namespace Diamante
         {
             Console.Write("Digite um valor inteiro: ");
             int x = int.Parse(Console.ReadLine());
-            int y = 2 * x;
+            int y = 3 * x;
             Console.WriteLine("TRIPLO = " + y);
             Console.ReadLine();
         }
