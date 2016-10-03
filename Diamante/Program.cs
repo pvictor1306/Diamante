@@ -1,5 +1,5 @@
 ﻿using System;
-using Diamante.tabuleiro;
+using tabuleiro;
 using Xadrez;
 namespace Diamante
 {
@@ -7,14 +7,10 @@ namespace Diamante
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8, 8);
 
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 7));
-            tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 4));
-
-            Tela.imprimirTabuleiro(tab);
-
+            PosicaoXadrez pos = new PosicaoXadrez('c', 7);
+            Console.WriteLine(pos);
+            Console.WriteLine(pos.toPosicao());
             Console.ReadLine();
         }
     }

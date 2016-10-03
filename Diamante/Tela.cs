@@ -1,5 +1,5 @@
 ﻿using System;
-using Diamante.tabuleiro;
+using tabuleiro;
 
 namespace Diamante
 {

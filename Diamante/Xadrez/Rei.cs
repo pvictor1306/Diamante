@@ -1,4 +1,4 @@
-﻿using Diamante.tabuleiro;
+﻿using tabuleiro;
 
 namespace Xadrez
 {
